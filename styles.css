@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color:rgb(252, 205, 205);
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  .site-header {
+    background-color: rgba(175, 153, 24, 0.9);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Navigation */
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background: rgba(168, 148, 34, 0.9);
+    margin: 0;
+    padding: 10px;
+    border-bottom:2px solid gray;
+  }
+  
+  .main-nav li {
+    margin: 0 15px;
+  }
+  
+  .main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .main-nav a:hover {
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .main-nav a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color :red;
+  
+  }
+  
+  /* Content Cards */
+  .content-card {
+    background: rgb(218, 102, 25);
+    border: 2px solid #ccc;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Example Boxes */
+  .example-boxes {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  .box {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 15px;
+    padding: 20px;
+    border: 5px solid black;
+    color: white;
+    font-weight: bold;
+    line-height: 80px; /* centers text vertically */
+    text-align: center;
+  }
+  
+  .red-box {
+    background-color: #e74c3c;
+  }
+  
+  .green-box {
+    background-color: #27ae60;
+  }
+  
+  .blue-box {
+    background-color: #2980b9;
+  }
+  
+  /* Footer */
+  .site-footer {
+    background:rgba(175, 153, 24, 0.9);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
+  
+  /* ----------------------------
+     BOX MODEL VISUALIZATION
+     ---------------------------- */
+  .demo-box {
+    width: 250px;
+    margin: 30px auto;
+    background: #fffae6;       /* Content area */
+    padding: 20px;
+    border: 10px solid #ff9800;
+    outline: 5px solid #2196f3; /* margin visualization */
+  }
+  
+  .demo-box p {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Add labels for explanation */
+  .demo-label {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
